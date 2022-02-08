@@ -1,0 +1,3 @@
+#!/bin/bash
+ssh -i '/home/ubuntu/managerkey.pem' u \
+        "service haproxy start"
